@@ -15,7 +15,6 @@ pip install -e .
 or directly install the package from the public repo:
 ```bash
 pip install git+https://github.com/Joyboy0056/RiemPy.git
-pip install -e .
 ```
 
 ### Note
