@@ -1,3 +1,9 @@
+[tool.setuptools]
+package-dir = {"" = "riempy"}
+
+[tool.setuptools.package-data]
+"riempy" = ["*.py"]
+
 [project]
 name = "riempy"
 version = "0.1.0"
@@ -13,6 +19,9 @@ dependencies = [
         "matplotlib"
 ]
 
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+[project.urls]
+Homepage = "https://github.com/Joyboy0056/RiemPy"
+Repository = "https://github.com/Joyboy0056/RiemPy"
+
+[tool.setuptools.publish]
+repository = "https://upload.pypi.org/legacy/"

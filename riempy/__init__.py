@@ -1,7 +1,7 @@
 """
 riempy: symbolic differential geometry in Python
 
-Repository: https://github.com/Joyboy0056/The-Geometric-Project
+Repository: https://github.com/Joyboy0056/RiemPy
 Author: Edoardo Tesei (Joyboy0056)
 """
 
