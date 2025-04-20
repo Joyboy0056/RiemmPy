@@ -9,14 +9,14 @@ name = "riempy"
 version = "0.1.0"
 description = "A symbolic differential geometry toolkit for general relativity and curved manifolds."
 authors = [{ name = "Edoardo Tesei", email = "eddote6@protonmail.com" }]
-license = {text = "MIT"}
+license = "MIT"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
     "sympy",
-        "numpy",
-        "scipy",
-        "matplotlib"
+    "numpy",
+    "scipy",
+    "matplotlib"
 ]
 
 [project.urls]
