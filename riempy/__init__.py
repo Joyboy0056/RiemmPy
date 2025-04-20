@@ -5,6 +5,8 @@ Repository: https://github.com/Joyboy0056/RiemPy
 Author: Edoardo Tesei (Joyboy0056)
 """
 
+__version__ = "0.1.0"
+
 from .geo_diff import (
     Manifold,
     Submanifold,
