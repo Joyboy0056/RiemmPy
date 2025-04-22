@@ -62,7 +62,7 @@ Built on top of `sympy`, the library allows users to compute geometric quantitie
 
 ### Class: `Manifold`
 
-A base class representing a general (possibly pseudo) Riemannian manifold of dimension n.
+A base class representing a general (possibly pseudo) Riemannian manifold of dimension $n$.
 
 **Attributes:**
 - `metric`: The metric tensor expressed as a `sympy.Matrix`.
@@ -91,7 +91,7 @@ The `Manifold` class has been provided with some other minor methods, useful for
 
 ### Class: `Submanifold`
 
-A subclass of `Manifold` representing a (n-k)-dimensional submanifold.
+A subclass of `Manifold` representing a $(n-k)$-dimensional submanifold.
 
 **Attributes:**
 - `ambient_manifold`: A `Manifold` object.
@@ -116,20 +116,20 @@ Here below, you can find other classes for the main geometric spaces.
 
 ### Class: `Sphere`
 
-A subclass for the spherical n-dimensional space S^n.
+A subclass for the spherical $n$-dimensional space $\mathbb{S}^n$.
 
 **Attributes:**
 - `dimension`: An integer for the dimension of the manifold.
 
 **Main methods:**
 Being a `Manifold` objects it inherits the base class methods. Moreover
-- `get_embedding()`: Returns the embedding of S^n in R^n+1.
+- `get_embedding()`: Returns the embedding of $\mathbb{S}^n$ in $\mathbb{R}^{n+1}$.
 
 ---
 
 ### Class: `Hyp`
 
-A subclass for the hyperbolic n-dimensional space H^n.
+A subclass for the hyperbolic $n$-dimensional space $\mathbb{H}^n$.
 
 **Attributes:**
 - `dimension`: An integer for the dimension of the manifold.
@@ -142,7 +142,7 @@ Being a `Manifold` objects it inherits the base class methods.
 
 ### Class: `Eucl`
 
-A subclass for the Euclidean n-dimensional space R^n.
+A subclass for the Euclidean $n$-dimensional space $\mathbb{R}^n$.
 
 **Attributes:**
 - `dimension`: An integer for the dimension of the manifold.
@@ -157,7 +157,7 @@ Being a `Manifold` objects it inherits the base class methods.
 
 ### Class: `Minkowski`
 
-A subclass for the Minkowskian (n+1)-dimensional space R^(1,n).
+A subclass for the Minkowskian $(n+1)$-dimensional space $\mathbb{R}^{(1,n)}$.
 
 **Attributes:**
 - `neg`: An integer for the negative part of the signature.
@@ -169,7 +169,7 @@ Being a `Manifold` objects it inherits the base class methods.
 
 ### Class: `Schwarzschild`
 
-A subclass for the spacelike Schwarzschild n-dimensional space Sigma^n.
+A subclass for the spacelike Schwarzschild $n$-dimensional space $\mathbb{\Sigma}^n$.
 
 **Attributes:**
 - `dimension`: An integer for the dimension of the manifold.
@@ -178,8 +178,8 @@ A subclass for the spacelike Schwarzschild n-dimensional space Sigma^n.
 Being a `Manifold` objects it inherits the base class methods.
 
 **Instances:**
-- `spacetime`: A `Manifold` object for the (n+1)-dimensional Schwarzschild spacetime.
-- `horizon`: A `Submanifold` object for the (n-1)-dimensional event horizon.
+- `spacetime`: A `Manifold` object for the $(n+1)$-dimensional Schwarzschild spacetime.
+- `horizon`: A `Submanifold` object for the $(n-1)$-dimensional event horizon.
 
 
 
