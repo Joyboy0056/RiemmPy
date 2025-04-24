@@ -12,7 +12,7 @@ git clone https://github.com/Joyboy0056/RiemPy.git
 cd RiemPy
 pip install -e .
 ```
-or directly install the package from the public repo:
+or directly install the package from the public repo — **recommended**:
 ```bash
 pip install git+https://github.com/Joyboy0056/RiemPy.git
 ```
