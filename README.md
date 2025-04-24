@@ -166,6 +166,7 @@ A subclass for the Minkowskian $(n+1)$-dimensional space $\mathbb{R}^{(1,n)}$.
 **Main methods:**
 Being a `Manifold` objects it inherits the base class methods.
 
+---
 
 ### Class: `Schwarzschild`
 
