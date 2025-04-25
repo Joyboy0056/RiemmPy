@@ -25,7 +25,7 @@ Expect changes, improvements, and possibly breaking updates in future releases.
 
 ## Quick start
 
-Please refer to the examples in this repository or see the code below and use it as a reference:
+Please refer to [examples](https://github.com/Joyboy0056/RiemPy/tree/main/examples) or see the code below and use it as a reference:
 
 ```bash
 from riempy import Manifold, Submanifold, Sphere, Schwarzschild
